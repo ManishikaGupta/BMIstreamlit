@@ -116,7 +116,7 @@ predictor = HealthRiskPredictor()
 predictor.train_model()
 
 # Streamlit App
-st.title("Health Risk Calculator")
+st.title("Fitness Meter")
 
 st.sidebar.header("Input Parameters")
 gender = st.sidebar.selectbox("Gender", ["Male", "Female"])
